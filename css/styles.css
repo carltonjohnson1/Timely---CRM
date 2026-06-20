@@ -1,0 +1,66 @@
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* :root {
+    --violet: #552049;
+
+  }
+
+  .lightmode {
+    --violet: #1F1F1F;
+ 
+  } */
+
+
+
+
+  body {
+    font-size: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img,
+  svg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  picture {
+    display: block;
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Noraml CSS */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+
+  }
+
+  .header {
+
+  }
+
+  .sidebar {
+
+  }
+
+  .main-container {
+
+  }

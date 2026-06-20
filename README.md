@@ -1,4 +1,6 @@
-# CRM for Customer Aquisition and Retention
+# Timely CRM
+
+A custom CRM built for Timely Web Design.
 
 ## Content
 
