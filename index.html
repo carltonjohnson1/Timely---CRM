@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timely CRM Dashboard</title>
+    <!-- Montserrat Font from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
     <!-- link to CSS Style Sheet -->
     <link rel="stylesheet" href="css/styles.css" />
     <!--link to JavaScript-->
@@ -12,7 +23,11 @@
   <body>
     <div class="grid-container">
       <!-- Header start -->
-      <div class="header"></div>
+      <div class="header">
+        <div class="header__menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined"> menu </span>
+        </div>
+      </div>
       <!-- Header end -->
 
       <!-- Sidebar start -->
